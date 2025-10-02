@@ -1,0 +1,49 @@
+# Python artifacts / virtualenv
+__pycache__/
+*.py[cod]
+env/
+venv/
+ENV/
+.venv/
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual environment and env files
+.env
+.env.*
+
+# Editor / OS files
+*.swp
+*.swo
+*.bak
+.DS_Store
+Thumbs.db
+
+# Keys / secrets
+*.key
+*.pem
+secrets.*
+credentials.json
+
+# Build / outputs / logs
+build/
+dist/
+*.egg-info/
+reports/
+data/
+*.log
+*.tmp
+
+# Example/generated artifacts (keep examples but not generated outputs)
+examples/*.json
+examples/*.csv
+
+# CI / local caches
+.cache/
+.coverage
+htmlcov/
+
+# Misc
+.vscode/
+.idea/
